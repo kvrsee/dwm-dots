@@ -1,0 +1,57 @@
+{
+"logo": {
+    "source": "~/.config/cgfetch/logo.txt",
+    "color": {
+      "1": "yellow",
+    },
+  },
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "green",
+        "host": "green"
+      }
+    },
+    "separator",
+    {
+      "type": "os",
+      "format": "alpine linux",
+      "key": "os  ",
+      "keyColor": "30"
+    },
+    {
+      "type": "kernel",
+      "format": "{release}",
+      "key": "kern",
+      "keyColor": "30"
+    },
+    {
+      "type": "terminal",
+      "key": "term",
+      "keyColor": "30"
+    },
+    {
+      "type": "uptime",
+      "format": "{2}h {3}m",
+      "key": "up  ",
+      "keyColor": "30"
+    },
+    {
+      "type": "memory",
+      "format": "{used} ({percentage})",
+      "key": "mem ",
+      "keyColor": "30"
+    },
+    {
+      "type": "disk",
+      "key": "disk",
+      "format": "{size-used} ({size-percentage})",
+      "keyColor": "30"
+    },
+    "break",
+  ]
+}
