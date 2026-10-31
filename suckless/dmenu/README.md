@@ -1,0 +1,2 @@
+# dmenu
+personal dmenu config
