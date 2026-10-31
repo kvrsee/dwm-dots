@@ -1,0 +1,40 @@
+{
+  "logo": { "source": "alpine2" },
+  "display": { "separator": "  " },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+{
+  "type": "command",
+  "key": "OS Age",
+  "text": "start=$(date -d \"$(cat ~/.os-install-date)\" +%s); now=$(date +%s); days=$(( (now - start) / 86400 )); years=$((days / 365)); months=$(((days % 365) / 30)); days=$((days % 30)); printf '%s years, %s months, %s days\\n' \"$years\" \"$months\" \"$days\""
+},
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "wmtheme",
+    "theme",
+    "icons",
+    "font",
+    "cursor",
+    "terminal",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "localip",
+    "battery",
+    "poweradapter",
+    "locale",
+    "break",
+    "colors"
+  ]
+}
