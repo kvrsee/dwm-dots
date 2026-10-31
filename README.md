@@ -1,6 +1,6 @@
 # dwm-dotfiles
 cgfetch is just a fastfetch config. so to use it alias 
-'''bash
+```bash
 fastfetch --config ~/.config/cgfetch/config.jsonc
 to
 '''bash
