@@ -1,4 +1,4 @@
-# dwm-dotfiles
+# dwm-dots
 ![ss](screenshots/cgfetch-colp-xeyes.png)
 ---
 cgfetch is just a fastfetch config. so to use it alias 
